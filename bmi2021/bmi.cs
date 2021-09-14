@@ -57,7 +57,7 @@ namespace BMICalculator
         }
 
         // calculate BMI category 
-        [Display(Name = "Your BMI Category is..)]
+        [Display(Name = "Your BMI Category is..")]
         public BMICategory BMICategory
         {
             get

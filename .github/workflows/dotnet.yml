@@ -2,7 +2,7 @@ name: BMI_CI
 
 env:
   AZURE_WEBAPP_NAME: bmi2021test            # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '.'              # set this to the path to your web app project
+  AZURE_WEBAPP_PACKAGE_PATH: 'publish'              # set this to the path to your web app project
 
 on:
   push:

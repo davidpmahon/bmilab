@@ -35,7 +35,7 @@ namespace BMICalculator
         public int HeightInches { get; set; }
 
         // calculate BMI, display to 2 decimal places
-        [Display(Name = "Your BMI is")]
+        [Display(Name = "Your BMI is  possibly....")]
         [DisplayFormat(DataFormatString = "{0:F2}")]
         public double BMIValue
         {
@@ -57,7 +57,7 @@ namespace BMICalculator
         }
 
         // calculate BMI category 
-        [Display(Name = "Your BMI Category is")]
+        [Display(Name = "Your BMI Category is....")]
         public BMICategory BMICategory
         {
             get
